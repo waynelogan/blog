@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ThemeButton from './ThemeButton'
 
 export default function Navbar () {
   
@@ -8,9 +9,10 @@ export default function Navbar () {
             <div className='flex justify-between items-center'>
                 <Link href='/' >
                     <h1 className='text-2xl font-medium'>
-                        Wayne's <span className='text-teal-500'>Blog</span>
+                        Wayne <span className='text-teal-500'>Blog</span>
                     </h1>
                 </Link>
+                <ThemeButton />
             </div>
         </div>
     </div>
